@@ -109,6 +109,15 @@ natasha.speed = 5  # Bigger means faster, max is usually about 10
 
 natasha.backward(50)
 natasha.right(90)
+natasha.forward(1025)
+natasha.backward(50)
+natasha.right(90)
+natasha.forward(125)
+natasha.backward(50)
+natasha.right(90)
+natasha.forward(1025)
+natasha.backward(50)
+natasha.right(90)
 natasha.forward(125)
 
 natasha.speed = 1  # Now slower
@@ -153,7 +162,41 @@ natasha.go_to(rg.Point(-100, 200))
 #   As always, test by running the module.
 #
 ###############################################################################
-
+kevin = rg.SimpleTurtle('turtle')
+kevin.pen = rg.Pen('teal', 10)  # Second argument is the Pen's thickness
+kevin.speed = 10  # Bigger means faster, max is usually about 10
+kevin.forward(25)
+kevin.backward(25)
+kevin.forward(25)
+kevin.backward(25)
+kevin.forward(25)
+kevin.backward(25)
+kevin.forward(25)
+kevin.backward(25)
+kevin.forward(25)
+kevin.backward(25)
+kevin.forward(25)
+kevin.backward(25)
+kevin.forward(25)
+kevin.backward(25)
+kevin.forward(25)
+kevin.backward(25)
+kevin.forward(25)
+kevin.backward(25)
+kevin.forward(25)
+kevin.backward(25)
+kevin.forward(25)
+kevin.backward(25)
+kevin.forward(25)
+kevin.backward(25)
+kevin.forward(25)
+kevin.backward(25)
+kevin.forward(25)
+kevin.backward(25)
+kevin.forward(25)
+kevin.backward(25)
+kevin.forward(25)
+kevin.go_to(rg.Point(0, 0))
 ###############################################################################
 #
 # TODO: 6.
