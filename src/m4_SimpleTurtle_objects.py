@@ -196,7 +196,7 @@ kevin.backward(25)
 kevin.forward(25)
 kevin.backward(25)
 kevin.forward(25)
-kevin.go_to(rg.Point(0, 0)) 
+kevin.go_to(rg.Point(0, 0))
 ###############################################################################
 #
 # TODO: 6.
